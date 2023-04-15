@@ -14,7 +14,15 @@ def hello():
   return "Öncelikle Botu forklamalısın.\nFirst of all You should fork the bot"
  else:
       return "Powered By Ber4tbey"
-
+ 
+@app.route("/log")
+def log():
+ 
+  dosya = open('logfile.txt', 'r') 
+  reddo = dosya.read()
+  
+  return str(reddo)
+ 
 
 def run_flask_app():
     app.run("0.0.0.0",port=random.randint(1000,9999))
