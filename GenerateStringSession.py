@@ -1,4 +1,7 @@
 import os
+
+print("String session generator hoşgeldiniz")
+	
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 APP_ID = 1761415
