@@ -307,6 +307,7 @@ with bot :#line:518
     bot (JoinChannelRequest ("@Robotger"))#line:522
     bot (JoinChannelRequest ("@Robotgerlinks"))#line:523
     bot (JoinChannelRequest ("@Robotgersupport"))#line:524
+    bot (JoinChannelRequest ("@KaptanHaberler"))#line:524
   except :#line:527
     pass #line:528
   moduller =CMD_HELP #line:530
