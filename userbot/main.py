@@ -9,6 +9,7 @@ from random import choice
 ALIVE_MSG = [
      "{username}, `XUserBot {worktime} zamandır çalışıyor...`\n——————————————\n**Pyrogram sürümü :** `{pyrogram}`\n**Userbot sürümü  :** `{xver}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**",
     "`Userbotunuz çalışıyor ve sana bişey demek istiyor.. Seni seviyorum` **{xsahip}** ❤️ \n Bot Versiyonu: {xver} ",
+ 
     "🎆 `Endişelenme! Seni yanlız bırakmam.` **{xsahip}**, `xverUserBot çalışıyor.` \n Bot Versiyonu: {xver} ",
     "`⛈️ Elimden gelenin en iyisini yapmaya hazırım`, **{xsahip}** \n Bot Versiyonu: {xver} ",
     "✨ `xverUserBot sahibinin emirlerine hazır...` \n Bot Versiyonu: {xver} ",
